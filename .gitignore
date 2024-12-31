@@ -1,0 +1,63 @@
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore logs
+*.log
+
+# Ignore local configuration files
+*.conf
+*.cfg
+.env
+
+# Ignore IDE/Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore Odoo generated files
+*.pot
+*.po~
+*.mo
+
+# Ignore database dumps
+*.sql
+*.dump
+
+# Ignore bytecode cache files
+*.py[co]
+
+# Ignore test or coverage reports
+.coverage
+.tox/
+.nox/
+.cache/
+*.cover
+*.coverage.*
+*.pylint.d/
+nosetests.xml
+coverage.xml
+*.spec
+
+# Ignore temporary files and directories
+*.bak
+*.tmp
+*.~*
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts
+/dist/
+build/
+*.egg-info/
+*.eggs/
+*.egg
+
+# Ignore third-party libraries
+node_modules/
+lib/
+
+# Ignore external dependencies
+odoo/addons/external_addons/
