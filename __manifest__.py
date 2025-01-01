@@ -7,7 +7,7 @@
     "license": "AGPL-3",
     "category": "Uncategorized",
     "website": "https://github.com/datalytiks",
-    "version": "18.0.1.0",
+    "version": "17.0.1.0",
     "depends": ["base"],
     "application": True,
     "installable": True,
